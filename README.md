@@ -1,4 +1,4 @@
-1. [Data import](#Dataimport)
+1. [Import Libraries](#Import-Libraries)
 2. [Prepare data for visualization](#Preparedataforvisualization)
 3. [Prepare data for machine learning](#Preparedataformachinelearning)
 
