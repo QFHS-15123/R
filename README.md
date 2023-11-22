@@ -1,32 +1,48 @@
-* 1. [Data import](#Dataimport)
-* 2. [Prepare data for visualization](#Preparedataforvisualization)
-* 3. [Prepare data for machine learning](#Preparedataformachinelearning)
-  * 3.1. [Convert categorical type data to integer encoding](#Convertcategoricaltypedatatointegerencoding)
-  * 3.2. [Delete constant columns](#Deleteconstantcolumns)
-* 4. [Demographic characteristics](#Demographiccharacteristics)
-  * 4.1. [Sex -> Attrition](#Sex-Attrition)
-  * 4.2. [Age -> Attrition](#Age-Attrition)
-  * 4.3. [Marital status -> Attrition](#Maritalstatus-Attrition)
-  * 4.4. [Educational level -> Attrition](#Educationallevel-Attrition)
-* 5. [Department and job role](#Departmentandjobrole)
-  * 5.1. [Department -> Attrition](#Department-Attrition)
-  * 5.2. [Job role -> Attrition](#Jobrole-Attrition)
-* 6. [Decision Tree](#DecisionTree)
-* 7. [H2O AutoML](#H2OAutoML)
-* 8. [Important factors -> Attrition](#Importantfactors-Attrition)
-  * 8.1. [Overtime work -> Attrition](#Overtimework-Attrition)
-  * 8.2. [Monthly income -> Attrition](#Monthlyincome-Attrition)
-* 9. [Basic factors -> Important factors](#Basicfactors-Importantfactors)
-  * 9.1. [Demographic characteristics -> Overtime work](#Demographiccharacteristics-Overtimework)
-  * 9.2. [Demographic characteristics -> Monthly income](#Demographiccharacteristics-Monthlyincome)
-  * 9.3. [Department and job role -> Overtime work](#Departmentandjobrole-Overtimework)
-  * 9.4. [Department and job role -> Monthly income](#Departmentandjobrole-Monthlyincome)
-* 10. [Correlation coefficient analysis](#Correlationcoefficientanalysis)
-  * 10.1. [Draw the correlation matrix](#Drawthecorrelationmatrix)
-  * 10.2. [Bivariate analysis](#Bivariateanalysis)
-* 11. [Satisfaction -> Attrition](#Satisfaction-Attrition)
-* 12. [Department and job role -> Satisfaction](#Departmentandjobrole-Satisfaction)
-* 13. [Conclusion](#Conclusion)
+1. [Data import](#Dataimport)
+2. [Prepare data for visualization](#Preparedataforvisualization)
+3. [Prepare data for machine learning](#Preparedataformachinelearning)
+
+   3.1. [Convert categorical type data to integer encoding](#Convertcategoricaltypedatatointegerencoding)
+
+   3.2. [Delete constant columns](#Deleteconstantcolumns)
+4. [Demographic characteristics](#Demographiccharacteristics)
+
+   4.1. [Sex -> Attrition](#Sex-Attrition)
+
+   4.2. [Age -> Attrition](#Age-Attrition)
+
+   4.3. [Marital status -> Attrition](#Maritalstatus-Attrition)
+
+   4.4. [Educational level -> Attrition](#Educationallevel-Attrition)
+6. [Department and job role](#Departmentandjobrole)
+
+   5.1. [Department -> Attrition](#Department-Attrition)
+
+   5.2. [Job role -> Attrition](#Jobrole-Attrition)
+8. [Decision Tree](#DecisionTree)
+9. [H2O AutoML](#H2OAutoML)
+10. [Important factors -> Attrition](#Importantfactors-Attrition)
+
+    8.1. [Overtime work -> Attrition](#Overtimework-Attrition)
+
+    8.2. [Monthly income -> Attrition](#Monthlyincome-Attrition)
+12. [Basic factors -> Important factors](#Basicfactors-Importantfactors)
+
+    9.1. [Demographic characteristics -> Overtime work](#Demographiccharacteristics-Overtimework)
+
+    9.2. [Demographic characteristics -> Monthly income](#Demographiccharacteristics-Monthlyincome)
+
+    9.3. [Department and job role -> Overtime work](#Departmentandjobrole-Overtimework)
+
+    9.4. [Department and job role -> Monthly income](#Departmentandjobrole-Monthlyincome)
+14. [Correlation coefficient analysis](#Correlationcoefficientanalysis)
+
+    10.1. [Draw the correlation matrix](#Drawthecorrelationmatrix)
+
+    10.2. [Bivariate analysis](#Bivariateanalysis)
+16. [Satisfaction -> Attrition](#Satisfaction-Attrition)
+17. [Department and job role -> Satisfaction](#Departmentandjobrole-Satisfaction)
+18. [Conclusion](#Conclusion)
 
 
 The data set “IBM HR Analytics Employee Attrition & Performance” was
