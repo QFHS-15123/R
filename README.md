@@ -1,3 +1,75 @@
+[Import Libraries](#Import-Libraries)
+
+[Data prepare](#Data-prepare)
+
+[Data import](#Data-import)
+
+[Prepare data for visualization](#Prepare-data-for-visualization)
+
+[Prepare data for machine learning](#Prepare-data-for-machine-learning)
+
+[Convert categorical type data to integer encoding](#Convert-categorical-type-data-to-integer-encoding)
+
+[Delete constant columns](#Delete-constant-columns)
+
+[Static](#Static)
+
+[Analyze basic factors](#Analyze-basic-factors)
+
+[Demographic characteristics](#Demographic-characteristics)
+
+[Sex -> Attrition](#Sex-->-Attrition)
+
+[Age -> Attrition](#Age-->-Attrition)
+
+[Marital status -> Attrition](#Marital-status-->-Attrition)
+
+[Educational level -> Attrition](#Educational-level-->-Attrition)
+
+[Department and job role](#Department-and-job-role)
+
+[Department -> Attrition](#Department-->-Attrition)
+
+[Job role -> Attrition](#Job-role-->-Attrition)
+
+[Ranking of feature importance](#Ranking-of-feature-importance)
+
+[Decision Tree](#Decision-Tree)
+
+[H2O AutoML](#H2O-AutoML)
+
+[Analyze important factors](#Analyze-important-factors)
+
+[Important factors -> Attrition](#Important-factors-->-Attrition)
+
+[Overtime work -> Attrition](#Overtime-work-->-Attrition)
+
+[Monthly income -> Attrition](#Monthly-income-->-Attrition)
+
+[Basic factors -> Important factors](#Basic-factors-->-Important-factors)
+
+[Demographic characteristics -> Overtime work](#Demographic-characteristics-->-Overtime-work)
+
+[Demographic characteristics -> Monthly income](#Demographic-characteristics-->-Monthly-income)
+
+[Department and job role -> Overtime work](#Department-and-job-role-->-Overtime-work)
+
+[Department and job role -> Monthly income](#Department-and-job-role-->-Monthly-income)
+
+[Correlation coefficient analysis](#Correlation-coefficient-analysis)
+
+[Draw the correlation matrix](#Draw-the-correlation-matrix)
+
+[Bivariate analysis](#Bivariate-analysis)
+
+[Satisfaction analysis](#Satisfaction-analysis)
+
+[Satisfaction -> Attrition](#Satisfaction-->-Attrition)
+
+[Department and job role -> Satisfaction](#Department-and-job-role-->-Satisfaction)
+
+[Conclusion](#Conclusion)
+
 1. [Import Libraries](#Import-Libraries)
 2. [Prepare data for visualization](#Preparedataforvisualization)
 3. [Prepare data for machine learning](#Preparedataformachinelearning)
