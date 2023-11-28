@@ -1,74 +1,74 @@
-[Import Libraries](#Import-Libraries)
+1. [Import Libraries](#Import-Libraries)
 
-[Data prepare](#Data-prepare)
+2. [Data prepare](#Data-prepare)
 
-[Data import](#Data-import)
+   3.1. [Data import](#Data-import)
 
-[Prepare data for visualization](#Prepare-data-for-visualization)
+   3.2. [Prepare data for visualization](#Prepare-data-for-visualization)
 
-[Prepare data for machine learning](#Prepare-data-for-machine-learning)
+   3.3. [Prepare data for machine learning](#Prepare-data-for-machine-learning)
 
-[Convert categorical type data to integer encoding](#Convert-categorical-type-data-to-integer-encoding)
+      3.4.1. [Convert categorical type data to integer encoding](#Convert-categorical-type-data-to-integer-encoding)
 
-[Delete constant columns](#Delete-constant-columns)
+      3.4.2. [Delete constant columns](#Delete-constant-columns)
 
-[Static](#Static)
+3. [Static](#Static)
 
-[Analyze basic factors](#Analyze-basic-factors)
+4. [Analyze basic factors](#Analyze-basic-factors)
 
-[Demographic characteristics](#Demographic-characteristics)
+   5.1. [Demographic characteristics](#Demographic-characteristics)
 
-[Sex -> Attrition](#Sex-->-Attrition)
+      5.2.1. [Sex -> Attrition](#Sex-->-Attrition)
 
-[Age -> Attrition](#Age-->-Attrition)
+      5.2.2. [Age -> Attrition](#Age-->-Attrition)
 
-[Marital status -> Attrition](#Marital-status-->-Attrition)
+      5.2.3. [Marital status -> Attrition](#Marital-status-->-Attrition)
 
-[Educational level -> Attrition](#Educational-level-->-Attrition)
+      5.2.4. [Educational level -> Attrition](#Educational-level-->-Attrition)
 
-[Department and job role](#Department-and-job-role)
+   5.2. [Department and job role](#Department-and-job-role)
 
-[Department -> Attrition](#Department-->-Attrition)
+      5.3.1. [Department -> Attrition](#Department-->-Attrition)
 
-[Job role -> Attrition](#Job-role-->-Attrition)
+      5.3.2. [Job role -> Attrition](#Job-role-->-Attrition)
 
-[Ranking of feature importance](#Ranking-of-feature-importance)
+5. [Ranking of feature importance](#Ranking-of-feature-importance)
 
-[Decision Tree](#Decision-Tree)
+   6.1. [Decision Tree](#Decision-Tree)
 
-[H2O AutoML](#H2O-AutoML)
+   6.2. [H2O AutoML](#H2O-AutoML)
 
-[Analyze important factors](#Analyze-important-factors)
+6. [Analyze important factors](#Analyze-important-factors)
 
-[Important factors -> Attrition](#Important-factors-->-Attrition)
+   7.1. [Important factors -> Attrition](#Important-factors-->-Attrition)
 
-[Overtime work -> Attrition](#Overtime-work-->-Attrition)
+      7.2.1. [Overtime work -> Attrition](#Overtime-work-->-Attrition)
 
-[Monthly income -> Attrition](#Monthly-income-->-Attrition)
+      7.2.2. [Monthly income -> Attrition](#Monthly-income-->-Attrition)
 
-[Basic factors -> Important factors](#Basic-factors-->-Important-factors)
+   7.2. [Basic factors -> Important factors](#Basic-factors-->-Important-factors)
 
-[Demographic characteristics -> Overtime work](#Demographic-characteristics-->-Overtime-work)
+      7.3.1. [Demographic characteristics -> Overtime work](#Demographic-characteristics-->-Overtime-work)
 
-[Demographic characteristics -> Monthly income](#Demographic-characteristics-->-Monthly-income)
+      7.3.2. [Demographic characteristics -> Monthly income](#Demographic-characteristics-->-Monthly-income)
 
-[Department and job role -> Overtime work](#Department-and-job-role-->-Overtime-work)
+      7.3.3. [Department and job role -> Overtime work](#Department-and-job-role-->-Overtime-work)
 
-[Department and job role -> Monthly income](#Department-and-job-role-->-Monthly-income)
+      7.3.4. [Department and job role -> Monthly income](#Department-and-job-role-->-Monthly-income)
 
-[Correlation coefficient analysis](#Correlation-coefficient-analysis)
+   7.3. [Correlation coefficient analysis](#Correlation-coefficient-analysis)
 
-[Draw the correlation matrix](#Draw-the-correlation-matrix)
+      7.4.1. [Draw the correlation matrix](#Draw-the-correlation-matrix)
 
-[Bivariate analysis](#Bivariate-analysis)
+      7.4.2. [Bivariate analysis](#Bivariate-analysis)
 
-[Satisfaction analysis](#Satisfaction-analysis)
+7. [Satisfaction analysis](#Satisfaction-analysis)
 
-[Satisfaction -> Attrition](#Satisfaction-->-Attrition)
+   8.1. [Satisfaction -> Attrition](#Satisfaction-->-Attrition)
 
-[Department and job role -> Satisfaction](#Department-and-job-role-->-Satisfaction)
+   8.2. [Department and job role -> Satisfaction](#Department-and-job-role-->-Satisfaction)
 
-[Conclusion](#Conclusion)
+8. [Conclusion](#Conclusion)
 
 1. [Import Libraries](#Import-Libraries)
 2. [Prepare data for visualization](#Preparedataforvisualization)
