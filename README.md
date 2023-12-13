@@ -956,7 +956,7 @@ managers to help reduce the rate of employee attrition:
 
 9.  Work-Life Balance Management: Pay attention to employees' work-life balance and provide flexible work arrangements and support measures to reduce employee turnover due to excessive work stress.
 
-# Appendix List of packages {#appendix-list-of-packages .unnumbered}
+# Appendix List of packages
 
 ```
 Library(dplyr) # provides data processing and data transformation
